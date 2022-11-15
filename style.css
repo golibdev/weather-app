@@ -1,0 +1,128 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+   height: 100vh;
+   overflow: hidden;
+   background-image: url('./bc.jpg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.wrapper {
+   width: 400px;
+}
+
+.section-title {
+   font-size: 40px;
+   color: #fff;
+   margin: 40px 0 80px 0;
+   text-align: center;
+}
+
+.form-control {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.form-control label {
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.form-control .city-input {
+   display: block;
+   width: 100%;
+   padding: 0.375rem 0.75rem;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #212529;
+   background-color: #fff;
+   outline: none;
+   border-radius: 0.375rem;
+   border: 1px solid #ced4da;
+   margin-bottom: 10px;
+}
+
+.form-control .submit-btn {
+   cursor: pointer;
+   font-size: 18px;
+   display: block;
+   width: 100%;
+   padding: 0.375rem 0.75rem;
+   border-radius: 0.375rem;
+   background-color: blue;
+   color: #fff;
+   border: none;
+}
+
+.card {
+   display: none;
+   background: linear-gradient(180deg, rgba(255, 0, 208, 0.714), rgba(28, 0, 154, 0.713));
+   padding: 30px;
+   margin-bottom: 20px;
+   color: #fff;
+   text-align: center;
+   border-radius: 30px 0 30px 0;
+   border-top: 5px solid;
+   border-bottom: 5px solid;
+   position: relative;
+   text-transform: uppercase;
+}
+
+.card .circle-img {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   background-color: #fff;
+   border-radius: 100%;
+   top: -20%;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.card .weather-icon {
+   width: 100%;
+}
+
+.card .city-info {
+   font-size: 20px;
+   margin-top: 50px;
+}
+
+.card .weather-type {
+   margin-top: 15px;
+}
+
+.card .weather-temp {
+   font-size: 56px;
+   margin-top: 20px;
+}
+
+.alert {
+   display: none;
+   margin-top: 20px;
+   height: 50px;
+   background-color: #F8D7DA;
+   border-radius: 15px;
+}
+
+.alert p {
+   display: flex;
+   justify-content: center;
+   line-height: 50px;
+}

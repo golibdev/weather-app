@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WEATHER | APP</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+      <div class="wrapper">
+         <div class="section-title">
+            Weather App
+         </div>
+         <div class="card">
+            <div class="circle-img">
+               <img class="weather-icon" src="" alt="icon">
+            </div>
+            <p class="city-info">
+               Tashkent, Uz
+            </p>
+            <p class="weather-type">Smoke</p>
+            <p class="weather-temp"><span id="temp">11</span> °C</p>
+         </div>
+         <form class="form-control">
+            <label for="city">Enter a location for weather information</label>
+            <input placeholder="Enter the country:" type="text" id="city" class="city-input">
+            <button class="submit-btn">Submit</button>
+         </form>
+         <div class="alert">
+            <p class="alert-message"></p>
+         </div>
+      </div>
+   </div>
+   <script src="./index.js"></script>
+</body>
+</html>
